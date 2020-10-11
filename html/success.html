@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {{template "_header.html"}}
+    <body>
+        {{template "_appHeading.html"}}
+        <div>
+            <h2>Hello {{.LoginName}}. Below are repositories to clone</h2>
+            <hr>
+            <ul>
+                {{range .Repos}}
+                    <li><a href="/clone?url={{.CloneURL}}">{{.RepoName}}</a></li>
+                {{end}}
+            </ul>
+        </div>
+    </body>
+</html>
