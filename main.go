@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/patilpankaj212/GoTest/GitHubOAuthApp/controller"
+	"github.com/patilpankaj212/GitHubOAuthApp/controller"
 )
 
 func main() {

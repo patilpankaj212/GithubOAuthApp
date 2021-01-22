@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/patilpankaj212/GoTest/GitHubOAuthApp/model"
+	"github.com/patilpankaj212/GitHubOAuthApp/model"
 )
 
 const (
